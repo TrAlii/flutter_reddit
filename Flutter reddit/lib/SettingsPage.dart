@@ -65,14 +65,6 @@ class SettingsPage extends StatelessWidget {
                         child:IconButton(
                           icon: Icon(Icons.add_circle),
                           iconSize: 60,
-                          onPressed: () {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const HomePage(),
-                              ),
-                            );
-                          },
                         ),
                       ),
                       Container(
@@ -81,14 +73,7 @@ class SettingsPage extends StatelessWidget {
                         child:IconButton(
                           icon: Icon(Icons.arrow_circle_down_outlined ),
                           iconSize: 60,
-                          onPressed: () {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const HomePage(),
-                              ),
-                            );
-                          },
+                         
                         ),
                       ),
                       Container(
@@ -97,14 +82,7 @@ class SettingsPage extends StatelessWidget {
                         child:IconButton(
                           icon: Icon(Icons.call),
                           iconSize: 60,
-                          onPressed: () {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => const HomePage(),
-                              ),
-                            );
-                          },
+                         
                         ),
                       ),
                     ],
